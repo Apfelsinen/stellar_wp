@@ -19,13 +19,13 @@
                 <h1><?php bloginfo( 'name' ); ?></h1>
                 <p><?php echo get_bloginfo( 'description', 'display' ); ?></p>
             </header>
-        
+
             <!-- Nav -->
             <nav id="nav">
                 <?php
                 wp_nav_menu(
                     array(
-                        'theme_location' => 'menu-1',
+                        'theme_location' => 'menu-header',
                         'menu_id'        => 'primary-menu',
                     )
                 );
